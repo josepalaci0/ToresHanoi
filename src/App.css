@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Press+Start+2P&family=Zilla+Slab:wght@300&display=swap");
+body {
+  /* background-image: url(./img/torres.png); */
+  background-color: #0e1832;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Tahoma;
+  color: white;
+  font-size: 20px;
+}
+.text-title {
+  font-weight: 700;
+}
+h1 {
+  font-family: fantasy;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.content {
+  border: none;
+  display: inline-flex;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+
+.column-container {
+  margin: 25px;
+  align-items: flex-end;
+  border: 1px solid grey;
+  height: 80vh;
+  position: relative;
+  width: 30%;
+}
+
+.center-bar {
+  background-color: white;
+  width: 4%;
+  height: 100%;
+  border: 1px solid grey;
+  position: absolute;
+  left: 48%;
+  z-index: -1;
+}
+
+.tile {
+  background-color: #22242b;
+  border: 1px solid white;
+  border-radius: 4px;
+  height: 40px;
+  margin: auto;
+  z-index: 10;
+}
+
+.win-message {
+  background-image: url("./img/message.png");
+  background-size: cover;
+  border-radius: 10px;
+  color: #0c8869;
+  font-size: 42px;
+  font-weight: 500;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  text-shadow: 3px 2px rgb(0, 40, 69);
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  z-index: 20;
+}
+
+.win-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.win-number {
+  font-size: 43px;
+  color: rgb(100, 250, 204);
+  text-shadow: 3px 2px rgb(0, 40, 69);
+}
+
+.componentes {
+  display: inline;
+}
